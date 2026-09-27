@@ -62,11 +62,9 @@ El sistema se divide en tres módulos independientes que se comunican mediante t
 ## Requisitos e instalación
  
 **Requisitos:**
-- Ubuntu `[completar versión]`
-- ROS `[completar distro, p. ej. Noetic]`
-- Gazebo `[completar versión]`
+- Ubuntu `Versión: 18.04`
+- ROS `Distro: Melodic`
 - Paquetes de Robotnik para el SummitXL: `[enlace al repositorio oficial]`
-- Dependencias adicionales: `[OpenCV, PCL, modelo de detección de personas, etc.]`
  
 Instrucciones detalladas del simulador disponibles en [`Simulador/`](./Simulador).
 
@@ -76,9 +74,9 @@ Instrucciones detalladas del simulador disponibles en [`Simulador/`](./Simulador
  
 | Integrante | Módulo(s) asignado(s) | Tareas principales |
 |---|---|---|
-| `[Alba Varela]` | Percepción | `[detalle]` |
-| `[Aarón Franco]` | Control y movimiento | `[detalle]` |
-| `[Sofia Fernández]` | Integración, simulación y pruebas | `[detalle]` |
+| `Alba Varela` | Percepción | `[detalle]` |
+| `Aarón Franco` | Control y movimiento | `[detalle]` |
+| `Sofia Fernández` | Integración, simulación y pruebas | `[detalle]` |
  
 ---
  
@@ -112,6 +110,6 @@ Métricas consideradas para evaluar el comportamiento social del robot:
  
 ## Autores
  
-- `[Alba Varela]` — Grado en Robótica, USC
-- `[Sofia Fernández]` — Grado en Robótica, USC
-- `[Aarón Franco]` — Grado en Robótica, USC
+- `Alba Varela` — Grado en Robótica, USC
+- `Sofia Fernández` — Grado en Robótica, USC
+- `Aarón Franco` — Grado en Robótica, USC
