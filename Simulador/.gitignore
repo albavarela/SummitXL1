@@ -1,1 +1,25 @@
-*~
+# ---- catkin / ROS build artifacts ----
+build/
+devel/
+install/
+logs/
+.catkin_workspace
+*.pyc
+__pycache__/
+
+# ---- editores / SO ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ---- repos traídos por vcs import (no son tuyos, se regeneran) ----
+# Si tienes un .repos file (ej. summit_xl_sim_devel_docker.repos),
+# lo normal es NO comitear los paquetes que trae, salvo que los hayas
+# modificado tú. Descomenta y ajusta si aplica:
+# src/<paquete_externo_1>/
+# src/<paquete_externo_2>/
+
+# ---- Gazebo / logs de simulación ----
+*.log
+gazebo.log*~
