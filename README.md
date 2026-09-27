@@ -32,9 +32,9 @@ Desarrollar un comportamiento social de seguimiento de personas ("person followi
 
 ## Estructura del repositorio
 
-
-- `Software/`: Donde se encuentra toda la programación del proyecto.
+- `Multimedia/`: Donde se encuentra toda la multimedia del proyecto.
 - `Simulador/`: Donde se encuentra el simulador del robot y como instalarlo.
+- `Software/`: Donde se encuentra toda la programación del proyecto.
 - `README.md`: Fichero explicativo de todo el proyecto.
 
 
