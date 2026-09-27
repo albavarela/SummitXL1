@@ -1,0 +1,12 @@
+# Configuración personal de red
+docker/.env
+
+# Carpetas temporales de compilación (por si se generasen localmente)
+catkin_ws/build/
+catkin_ws/devel/
+catkin_ws/logs/
+
+# Python y sistema
+__pycache__/
+*.pyc
+.DS_Store

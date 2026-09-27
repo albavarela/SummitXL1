@@ -1,0 +1,17 @@
+services:
+  summitxl_real:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: summitxl_real
+    network_mode: host
+    environment:
+      - ROS_MASTER_URI=${ROS_MASTER_URI}
+      - ROS_IP=${ROS_IP}
+      - DISPLAY=${DISPLAY:-:0}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ../catkin_ws/src:/home/ros/catkin_ws/src
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    stdin_open: true
+    tty: true
