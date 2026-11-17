@@ -1,6 +1,6 @@
 # SummitXL1 — Comportamiento Social de Seguimiento de Personas
 
-Proyecto desarrollado por tres alumnos del Grado en Robótica de la Universidad de Santiago de Compostela (USC), en el marco de la asignatura **Interacción Persona-Robot**. El objetivo es programar un comportamiento social para el robot **SummitXL** capaz de detectar, seguir y reaccionar de forma segura ante la presencia de una persona.
+Proyecto desarrollado por tres alumnos del Grado en Robótica de la Universidad de Santiago de Compostela (USC), en el marco de la asignatura **Interacción Persona-Robot**. El objetivo es programar un comportamiento social para el robot **SummitXL** capaz de detectar, seguir y reaccionar de forma segura ante la presencia de una persona. --
 
 ## Índice
  
