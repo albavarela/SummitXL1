@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/people_msgs/share/people_msgs/cmake/people_msgs-msg-paths.cmake

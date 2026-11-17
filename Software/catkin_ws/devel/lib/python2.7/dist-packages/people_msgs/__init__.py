@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/people_msgs/lib/python2.7/dist-packages/people_msgs/__init__.py

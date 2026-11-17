@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_global_localization/share/common-lisp/ros/hdl_global_localization/srv/QueryGlobalLocalization.lisp

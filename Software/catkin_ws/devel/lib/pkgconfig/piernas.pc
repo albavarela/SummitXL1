@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/piernas/lib/pkgconfig/piernas.pc

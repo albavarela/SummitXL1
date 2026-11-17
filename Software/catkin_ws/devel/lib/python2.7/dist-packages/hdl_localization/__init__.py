@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_localization/lib/python2.7/dist-packages/hdl_localization/__init__.py

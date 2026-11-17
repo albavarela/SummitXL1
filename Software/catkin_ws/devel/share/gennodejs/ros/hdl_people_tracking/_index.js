@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_people_tracking/share/gennodejs/ros/hdl_people_tracking/_index.js

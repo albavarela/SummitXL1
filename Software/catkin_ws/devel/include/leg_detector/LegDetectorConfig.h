@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/leg_detector/include/leg_detector/LegDetectorConfig.h

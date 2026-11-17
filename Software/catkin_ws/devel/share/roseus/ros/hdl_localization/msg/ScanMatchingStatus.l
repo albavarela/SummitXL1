@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_localization/share/roseus/ros/hdl_localization/msg/ScanMatchingStatus.l

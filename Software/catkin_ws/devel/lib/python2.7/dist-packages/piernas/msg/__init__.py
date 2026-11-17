@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/piernas/lib/python2.7/dist-packages/piernas/msg/__init__.py

@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_localization/share/common-lisp/ros/hdl_localization/msg/ScanMatchingStatus.lisp

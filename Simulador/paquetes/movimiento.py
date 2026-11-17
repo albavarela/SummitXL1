@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
 import time
 import numpy as np
 
@@ -20,30 +22,35 @@ class Movimiento(object):
     def search(self, sentido):
         return 0.0, 0.0, sentido * 0.5
  
-    def follow(self,, position, angle, obstacle_distance=None, sentido_escape = 1, distancia_pared=None,
+    def follow(self, position, angle=None, obstacle_distance=None, sentido_escape=1, distancia_pared=None,
             umbral=1.0):
-        """Devuelve (vx, vy, vz). sentido_escape: +1 izquierda, -1 derecha."""
+        """Sigue position=(x, y) respecto al robot y mantiene dist_deseada.
+
+        angle se conserva por compatibilidad, pero no se usa: la dirección se
+        calcula desde la posición observada de la persona.
+        """
         #if self.objetivo_caducado():
         #   return self.stop()
 
-        error = np.hypot(position[0], position[1]) - self.dist_deseada
+        distancia = np.hypot(position[0], position[1])
+        rumbo = np.arctan2(position[1], position[0])
+        error_distancia = distancia - self.dist_deseada
 
-        # 1. Seguimiento base (locales, sin estado)
-        vx = vy = vz = 0.0
-        if abs(error) > 0.1 and abs(angle) < 40:
-            vx = self.kp_lin * error * np.cos(np.radians(angle))
-        if abs(angle) > 5:
-            vz = self.kp_ang * np.radians(angle)
+        # 1. Gira hacia la persona y solo avanza si está más lejos que la distancia deseada.
+        vx = vz = 0.0
+        vz = self.kp_ang * rumbo
+        if error_distancia > 0.1:
+            vx = self.kp_lin * error_distancia * max(0.0, np.cos(rumbo))
 
         # 2. Obstáculo de frente: frena y rodea en lateral
-        if obstacle_distance is not None and obstacle_distance < umbral:
-            vx *= obstacle_distance / umbral      # frena suave
-            vy = 0.5 * sentido_escape
+        if obstacle_distance is not None and 0.0 <= obstacle_distance < umbral:
+            vx *= max(0.0, obstacle_distance / umbral)
+            vz = 0.5 * sentido_escape
 
-        # 3. Pared lateral: se aparta (el lado lo da sentido_escape)
-        if distancia_pared is not None and distancia_pared < umbral:
-            vy = 0.5 * sentido_escape
+        # 3. Pared lateral: gira para apartarse (el lado lo da sentido_escape)
+        if (distancia_pared is not None
+                and 0.0 <= distancia_pared < umbral):
+            vz = 0.5 * sentido_escape
 
         return (float(np.clip(vx, -0.2, 1.0)),
-                float(np.clip(vy, -0.5, 0.5)),
                 float(np.clip(vz, -0.5, 0.5)))

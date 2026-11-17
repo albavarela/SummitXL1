@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/piernas/share/common-lisp/ros/piernas/msg/Alba.lisp

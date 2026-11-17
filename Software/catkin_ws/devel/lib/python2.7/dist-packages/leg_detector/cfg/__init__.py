@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/leg_detector/lib/python2.7/dist-packages/leg_detector/cfg/__init__.py

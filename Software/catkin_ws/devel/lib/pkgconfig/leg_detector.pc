@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/leg_detector/lib/pkgconfig/leg_detector.pc

@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/piernas/share/gennodejs/ros/piernas/msg/Alba.js

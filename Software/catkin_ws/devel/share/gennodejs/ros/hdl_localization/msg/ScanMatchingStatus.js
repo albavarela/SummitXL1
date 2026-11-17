@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_localization/share/gennodejs/ros/hdl_localization/msg/ScanMatchingStatus.js

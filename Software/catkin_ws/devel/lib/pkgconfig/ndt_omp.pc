@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/ndt_omp/lib/pkgconfig/ndt_omp.pc

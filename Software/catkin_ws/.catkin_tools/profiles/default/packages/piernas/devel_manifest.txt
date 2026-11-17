@@ -1,0 +1,20 @@
+piernas
+/home/ros/catkin_ws/devel/.private/piernas/cmake.lock /home/ros/catkin_ws/devel/./cmake.lock
+/home/ros/catkin_ws/devel/.private/piernas/include/piernas/Alba.h /home/ros/catkin_ws/devel/include/piernas/Alba.h
+/home/ros/catkin_ws/devel/.private/piernas/share/gennodejs/ros/piernas/_index.js /home/ros/catkin_ws/devel/share/gennodejs/ros/piernas/_index.js
+/home/ros/catkin_ws/devel/.private/piernas/share/gennodejs/ros/piernas/msg/Alba.js /home/ros/catkin_ws/devel/share/gennodejs/ros/piernas/msg/Alba.js
+/home/ros/catkin_ws/devel/.private/piernas/share/gennodejs/ros/piernas/msg/_index.js /home/ros/catkin_ws/devel/share/gennodejs/ros/piernas/msg/_index.js
+/home/ros/catkin_ws/devel/.private/piernas/share/common-lisp/ros/piernas/msg/Alba.lisp /home/ros/catkin_ws/devel/share/common-lisp/ros/piernas/msg/Alba.lisp
+/home/ros/catkin_ws/devel/.private/piernas/share/common-lisp/ros/piernas/msg/piernas-msg.asd /home/ros/catkin_ws/devel/share/common-lisp/ros/piernas/msg/piernas-msg.asd
+/home/ros/catkin_ws/devel/.private/piernas/share/common-lisp/ros/piernas/msg/_package_Alba.lisp /home/ros/catkin_ws/devel/share/common-lisp/ros/piernas/msg/_package_Alba.lisp
+/home/ros/catkin_ws/devel/.private/piernas/share/common-lisp/ros/piernas/msg/_package.lisp /home/ros/catkin_ws/devel/share/common-lisp/ros/piernas/msg/_package.lisp
+/home/ros/catkin_ws/devel/.private/piernas/share/roseus/ros/piernas/manifest.l /home/ros/catkin_ws/devel/share/roseus/ros/piernas/manifest.l
+/home/ros/catkin_ws/devel/.private/piernas/share/roseus/ros/piernas/msg/Alba.l /home/ros/catkin_ws/devel/share/roseus/ros/piernas/msg/Alba.l
+/home/ros/catkin_ws/devel/.private/piernas/share/piernas/cmake/piernasConfig.cmake /home/ros/catkin_ws/devel/share/piernas/cmake/piernasConfig.cmake
+/home/ros/catkin_ws/devel/.private/piernas/share/piernas/cmake/piernas-msg-extras.cmake /home/ros/catkin_ws/devel/share/piernas/cmake/piernas-msg-extras.cmake
+/home/ros/catkin_ws/devel/.private/piernas/share/piernas/cmake/piernasConfig-version.cmake /home/ros/catkin_ws/devel/share/piernas/cmake/piernasConfig-version.cmake
+/home/ros/catkin_ws/devel/.private/piernas/share/piernas/cmake/piernas-msg-paths.cmake /home/ros/catkin_ws/devel/share/piernas/cmake/piernas-msg-paths.cmake
+/home/ros/catkin_ws/devel/.private/piernas/lib/python2.7/dist-packages/piernas/__init__.py /home/ros/catkin_ws/devel/lib/python2.7/dist-packages/piernas/__init__.py
+/home/ros/catkin_ws/devel/.private/piernas/lib/python2.7/dist-packages/piernas/msg/__init__.py /home/ros/catkin_ws/devel/lib/python2.7/dist-packages/piernas/msg/__init__.py
+/home/ros/catkin_ws/devel/.private/piernas/lib/python2.7/dist-packages/piernas/msg/_Alba.py /home/ros/catkin_ws/devel/lib/python2.7/dist-packages/piernas/msg/_Alba.py
+/home/ros/catkin_ws/devel/.private/piernas/lib/pkgconfig/piernas.pc /home/ros/catkin_ws/devel/lib/pkgconfig/piernas.pc

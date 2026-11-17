@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/people_msgs/share/gennodejs/ros/people_msgs/msg/PersonStamped.js

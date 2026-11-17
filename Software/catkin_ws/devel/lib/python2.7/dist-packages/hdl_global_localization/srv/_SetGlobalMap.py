@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_global_localization/lib/python2.7/dist-packages/hdl_global_localization/srv/_SetGlobalMap.py

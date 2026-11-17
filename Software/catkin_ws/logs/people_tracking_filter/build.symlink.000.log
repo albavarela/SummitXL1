@@ -1,0 +1,5 @@
+Symlinking /home/ros/catkin_ws/devel/share/people_tracking_filter/cmake/people_tracking_filterConfig-version.cmake
+Symlinking /home/ros/catkin_ws/devel/share/people_tracking_filter/cmake/people_tracking_filterConfig.cmake
+Symlinking /home/ros/catkin_ws/devel/lib/libpeople_tracking_filter.so
+Symlinking /home/ros/catkin_ws/devel/lib/pkgconfig/people_tracking_filter.pc
+Symlinking /home/ros/catkin_ws/devel/lib/people_tracking_filter/people_tracker

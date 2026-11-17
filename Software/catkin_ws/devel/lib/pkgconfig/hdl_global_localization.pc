@@ -1,0 +1,1 @@
+/home/ros/catkin_ws/devel/.private/hdl_global_localization/lib/pkgconfig/hdl_global_localization.pc

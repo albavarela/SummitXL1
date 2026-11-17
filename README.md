@@ -23,7 +23,7 @@ Proyecto desarrollado por tres alumnos del Grado en Robótica de la Universidad 
 Desarrollar un comportamiento social de seguimiento de personas ("person following") para el robot SummitXL, que le permita detectar, seguir y reaccionar de forma segura ante la presencia de un humano.
  
 **Objetivos específicos:**
-- Detectar y seguir a una persona en tiempo real usando los sensores del robot (LiDAR 2D, 3D y cámara RGB-D).
+- Detectar y seguir a una persona en tiempo real usando los sensores del robot (LiDAR 2D y cámara RGB-D).
 - Diseñar un controlador de movimiento que mantenga una distancia y orientación social adecuadas respecto a la persona.
 - Implementar una máquina de estados robusta que gestione los distintos modos de comportamiento.
 - Validar el sistema completo en simulación antes de probarlo en el robot real.

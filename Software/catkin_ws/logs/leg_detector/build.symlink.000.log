@@ -1,0 +1,11 @@
+Symlinking /home/ros/catkin_ws/devel/include/leg_detector/LegDetectorConfig.h
+Symlinking /home/ros/catkin_ws/devel/share/leg_detector/cmake/leg_detectorConfig.cmake
+Symlinking /home/ros/catkin_ws/devel/share/leg_detector/cmake/leg_detectorConfig-version.cmake
+Symlinking /home/ros/catkin_ws/devel/share/leg_detector/docs/LegDetectorConfig.wikidoc
+Symlinking /home/ros/catkin_ws/devel/share/leg_detector/docs/LegDetectorConfig.dox
+Symlinking /home/ros/catkin_ws/devel/share/leg_detector/docs/LegDetectorConfig-usage.dox
+Symlinking /home/ros/catkin_ws/devel/lib/python2.7/dist-packages/leg_detector/__init__.py
+Symlinking /home/ros/catkin_ws/devel/lib/python2.7/dist-packages/leg_detector/cfg/LegDetectorConfig.py
+Symlinking /home/ros/catkin_ws/devel/lib/python2.7/dist-packages/leg_detector/cfg/__init__.py
+Symlinking /home/ros/catkin_ws/devel/lib/leg_detector/leg_detector
+Symlinking /home/ros/catkin_ws/devel/lib/pkgconfig/leg_detector.pc
